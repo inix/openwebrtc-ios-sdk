@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #s.header_mappings_dir = "OpenWebRTC.framework"
 
   ## FOR RELEASE
-  s.source = { :http => "http://localhost/OpenWebRTC_0.3.1.zip" }
+  s.source = { :http => "http://127.0.0.1/OpenWebRTC_0.3.1.zip" }
   s.preserve_paths = "*.framework"
   s.public_header_files = "OpenWebRTC.framework/Versions/0.3/Headers/**/*.h"
   s.header_mappings_dir = "OpenWebRTC.framework/Versions/0.3/Headers"
